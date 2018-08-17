@@ -5,6 +5,7 @@
 #user can exit and recieve the his money.
 
 # MAKE SURE YOU FETCH AND PUSH AFTER YOU'RE DONE!!!
+# HERROW HERROW#
 
 
 require_relative 'slot_machine.rb'
