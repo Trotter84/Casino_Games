@@ -4,6 +4,9 @@
 #user can select a different game
 #user can exit and recieve the his money.
 
+# MAKE SURE YOU FETCH AND PUSH AFTER YOU'RE DONE!!!
+
+
 require_relative 'slot_machine.rb'
 require_relative 'casino_dice.rb'
 
