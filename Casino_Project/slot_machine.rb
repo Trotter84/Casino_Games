@@ -6,12 +6,13 @@ class SlotGame
  def initialize(cash=nil)
    unless cash
      begin
-       print "How much total money would you like to play with today? "
+       print "How much money you got foo? "
        cash = gets.to_i
        puts "You must have a positive bank account to play!" if cash<=0
      end until cash > 0
    end
    @cash = cash
+   play_forever 
  end
 
  def play_forever
@@ -41,7 +42,7 @@ class SlotGame
      @cash += winnings
      puts "You just won $#{winnings}!"
    else
-     puts "Sorry, you're not a winner."
+     puts "You Lose hehehehhe."
    end
  end
 
@@ -59,5 +60,3 @@ class SlotGame
      end
    end
 end
-
-SlotGame.new.play_forever if __FILE__==$0
