@@ -1,0 +1,2 @@
+source gem 
+'slot_machine', '~> 0.1.2'
