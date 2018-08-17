@@ -5,6 +5,7 @@
 #user can exit and recieve the his money.
 
 require_relative 'slot_machine.rb'
+require_relative 'casino_dice.rb'
 
 
 
@@ -55,6 +56,7 @@ def game_select
         puts "-" * 45
         puts "Loading Craps..."
         puts "-" * 45
+        OverUnder.new
     when 2
         puts "-" * 45
         puts "Loading Slots Machines..." 
